@@ -4,7 +4,7 @@ import {
   useLinkTo,
   LinkingOptions
 } from '@react-navigation/native'
-import { BottomSheetModalProvider } from '@gorhom/bottom-sheet'
+
 
 import { linking } from 'app/navigation/linking'
 import type { NextNavigationProps } from 'app/navigation/types'
@@ -74,9 +74,9 @@ export function Navigation({ Component, pageProps }: NextNavigationProps) {
       }}
     >
       <LinkTo />
-      <BottomSheetModalProvider>
+     
         <NextTabNavigator Component={Component} pageProps={pageProps} />
-      </BottomSheetModalProvider>
+    
     </NavigationContainer>
   )
 }
