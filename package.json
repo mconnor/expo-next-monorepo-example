@@ -3,7 +3,8 @@
   "private": true,
   "license": "MIT",
   "devDependencies": {
-    "patch-package": "^6.4.7"
+    "patch-package": "^6.4.7",
+    "trash": "^8.0.0"
   },
   "workspaces": [
     "packages/app",
@@ -11,6 +12,7 @@
     "packages/next"
   ],
   "scripts": {
+    "clean": "trash -rf node_modules; trash shrinkwrap.yaml; trash -rf node_modules",
     "dev:expo": "yarn workspace @expo-next-monorepo-example/expo dev",
     "dev:next": "yarn workspace @expo-next-monorepo-example/next dev",
     "build": "cd packages/next && yarn build",
