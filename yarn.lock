@@ -1590,7 +1590,7 @@ __metadata:
     expo-notifications: ~0.13.3
     expo-splash-screen: ~0.13.5
     expo-status-bar: ~1.1.0
-    expo-updates: ~0.10.15
+    expo-updates: ~0.10.13
     next-compose-plugins: ^2.2.1
     react: 17.0.2
     react-dom: 17.0.2
@@ -7012,7 +7012,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expo-updates@npm:~0.10.15":
+"expo-updates@npm:~0.10.13":
   version: 0.10.15
   resolution: "expo-updates@npm:0.10.15"
   dependencies:
