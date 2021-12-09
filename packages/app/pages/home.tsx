@@ -1,4 +1,4 @@
-import React from 'react'
+
 
 import createStackNavigator from 'app/navigation/create-stack-navigator'
 import HomeScreen from 'app/screens/home'

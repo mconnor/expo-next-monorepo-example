@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Feather from '@expo/vector-icons/build/Feather'
 
 export function TabBarIcon(props: {

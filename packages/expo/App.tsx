@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { enableScreens, enableFreeze } from 'react-native-screens'
 import { StatusBar } from 'expo-status-bar'
 import { SafeAreaProvider } from 'react-native-safe-area-context'

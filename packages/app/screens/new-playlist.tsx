@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Platform, Button, useWindowDimensions } from 'react-native'
 import { View, Text, TextInput } from 'dripsy'
 

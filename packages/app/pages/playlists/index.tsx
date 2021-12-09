@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Platform } from 'react-native'
 
 import createStackNavigator from 'app/navigation/create-stack-navigator'

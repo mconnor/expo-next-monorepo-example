@@ -3,8 +3,11 @@
   "private": true,
   "license": "MIT",
   "devDependencies": {
+    "eslint": "7.32.0",
     "patch-package": "^6.4.7",
-    "trash": "^8.0.0"
+    "prettier": "^2.0.2",
+    "trash": "^8.0.0",
+    "typescript": "~4.4.4"
   },
   "workspaces": [
     "packages/app",
@@ -15,7 +18,8 @@
     "clean": "trash -rf node_modules; trash shrinkwrap.yaml; trash -rf node_modules",
     "dev:expo": "yarn workspace @expo-next-monorepo-example/expo dev",
     "dev:next": "yarn workspace @expo-next-monorepo-example/next dev",
-    "build": "cd packages/next && yarn build",
+    "build": "yarn workspace @expo-next-monorepo-example/next build",
+    "build:expo": "yarn workspace @expo-next-monorepo-example/next build",
     "deploy": "vercel --prod --no-clipboard",
     "postinstall": "patch-package"
   },

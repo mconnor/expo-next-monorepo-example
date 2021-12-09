@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {
   HeaderBackButton as ReactNavigationHeaderBackButton,
   HeaderBackButtonProps

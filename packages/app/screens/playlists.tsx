@@ -1,4 +1,4 @@
-import React from 'react'
+
 import { Pressable, Button } from 'react-native'
 import { Text } from 'dripsy'
 
